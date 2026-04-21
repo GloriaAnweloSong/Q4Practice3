@@ -41,17 +41,33 @@ document.getElementById("sample2").innerHTML = Sample2;
 
 <script>
 let Sample3 = "";
+let z = 5;
+
+do {
+  Sample3 += "<br>The number is " + z;
+  z--;
+}
+while (z > 0);
+
+document.getElementById("sample3").innerHTML = Sample3;
+</script>
+
+<!-- 012345
+
+<script>
+let Sample3 = "";
 let z = 0;
 
 do {
   Sample3 += "<br>The number is " + z;
   z++;
 }
-while (z < 5);  
+while (z < 5);
 
 document.getElementById("sample3").innerHTML = Sample3;
 </script>
 
+-->
 
 
 
