@@ -21,36 +21,34 @@
         document.getElementById("sample").innerHTML = Sample1;
         </script>
 
-        <h2>JavaScript While Loop</h2>
+    <h2>JavaScript While Loop</h2>
+        <p id="sample2"></p>
 
-<p id="sample2"></p>
+          <script>
+              let Sample2= "";
+              let y = 0;
+              while (y < 5) {
+              Sample2 += "<br>The number is " + y; y++;
+              }
 
-<script>
-let Sample2= "";
-let y = 0;
-while (y < 5) {
-  Sample2 += "<br>The number is " + y;
-  y++;
-}
-document.getElementById("sample2").innerHTML = Sample2;
-</script>
+          document.getElementById("sample2").innerHTML = Sample2;
+          </script>
 
-<h2>JavaScript do-While Loop</h2>
+      <h2>JavaScript do-While Loop</h2>
+          <p id="sample3"></p>
 
-<p id="sample3"></p>
+          <script>
+              let Sample3 = "";
+              let z = 5;
 
-<script>
-let Sample3 = "";
-let z = 5;
+              do {
+                Sample3 += "<br>The number is " + z;z--;
+                }
 
-do {
-  Sample3 += "<br>The number is " + z;
-  z--;
-}
-while (z > 0);
+              while (z > 0);
 
-document.getElementById("sample3").innerHTML = Sample3;
-</script>
+                document.getElementById("sample3").innerHTML = Sample3;
+          </script>
 
 <!-- 012345
 
